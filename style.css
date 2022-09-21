@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 252);
+}
+li{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: rgb(240, 122, 122);
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: rgb(14, 39, 73);
+    margin: 5px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 5px;  
+    background-color: rgb(224, 240, 87);
+    margin: 5px;
+}
+hr{
+    color: chartreuse;
+    border-width: 10px;
+}
