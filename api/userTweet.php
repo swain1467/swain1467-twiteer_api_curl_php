@@ -20,9 +20,9 @@ class TwitterAPI{
         $url_tweet = "https://api.twitter.com/2/users/".$id."/tweets";
         curl_setopt($ch_session, CURLOPT_URL, $url_tweet);
         $result_tweet = curl_exec($ch_session);
+        $res1 = objectToArray(json_decode($result_tweet));
 
-        return $result_tweet;
-        // print_r($result_tweet);
+        return $res1;
     }
 }
 ?>
